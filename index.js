@@ -2,7 +2,7 @@ const {
     ascendingOrder,
     kelvinScale,
     arithmeticAVG,
-    SomeNegativeValue,
+    someNegative,
     medianFn
 } = require("./utils/utils")
 
@@ -31,7 +31,7 @@ function processTemp(...tempValues) {
     let mean, sortedTemperatures, middle;
 
     if (len == sizeOfTemperatures) {
-        if (SomeNegativeValue(temperatures))
+        if (someNegative(temperatures))
             throw new RangeError("<RangeError>: Não existem números negativos na escala Kelvin");
 
         sortedTemperatures = ascendingOrder(temperatures);

@@ -5,7 +5,7 @@ const arithmeticAVG = temperatures => {
     const sum = temperatures.reduce((acc, temperature) => acc += temperature);
     return sum / temperatures.length;
 }
-const SomeNegativeValue = value => value.some(x => Math.sign(x) == -1);
+const someNegative = value => value.some(x => Math.sign(x) == -1);
 const medianFn = rollTemperatures => {
     const size_t = rollTemperatures.length;
     let measuresOfCenter, medianResult;
@@ -21,4 +21,4 @@ const medianFn = rollTemperatures => {
 }
 
 
-module.exports = { ascendingOrder, isEven, kelvinScale, arithmeticAVG, SomeNegativeValue, medianFn };
+module.exports = { ascendingOrder, isEven, kelvinScale, arithmeticAVG, someNegative, medianFn };
