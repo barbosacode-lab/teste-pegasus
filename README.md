@@ -37,7 +37,7 @@ A solução proposta seguiu algumas características como:
 ## Como Instalar
 > 
 ```
-git clone https://github.com/lbarbosadata/teste-pegasus`
+git clone https://github.com/lbarbosadata/teste-pegasus
 
 cd teste-pegasus
 
