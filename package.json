@@ -1,0 +1,8 @@
+{
+  "name": "teste-pegasus",
+  "version": "1.0.0",
+  "app": "app.js",
+  "repository": "https://github.com/lbarbosadata/teste-pegasus",
+  "author": "Leandro Barbosa <leandro.barbosamkt@gmail.com>",
+  "license": "MIT"
+}
