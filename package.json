@@ -4,5 +4,8 @@
   "app": "app.js",
   "repository": "https://github.com/lbarbosadata/teste-pegasus",
   "author": "Leandro Barbosa <leandro.barbosamkt@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
 }
